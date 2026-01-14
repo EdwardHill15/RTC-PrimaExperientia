@@ -102,7 +102,7 @@ p1 <- ggplot(holo_exp_data, aes(x = Space, y = Time, fill = Amplitude)) +
   geom_tile(color = NA) +
   facet_wrap(~Type, ncol = 1, scales = "free") +
   scale_fill_viridis_c(name = "Resonance\nAmplitude", option = "plasma") +
-  labs(title = "STC Ontology: M[e] ⊂ Holographic Field (PPTQ 62ms)",
+  labs(title = "RTC Ontology: M[e] ⊂ Holographic Field (PPTQ 62ms)",
        subtitle = "16 Percepts/Second of Solid Object via Psychophysical Time Quantum",
        x = "Spatial Dimension", y = "Experiential Time (s)",
        caption = "PPTQ = 62ms → 16.13 Hz perceptual sampling") +
@@ -170,6 +170,6 @@ cat(sprintf("✓ Resonance Window:    %d percepts [1.6s-2.4s]\n", n_percepts_win
 cat(sprintf("✓ Subset Ratio:        %.1f%% of holographic field\n", 100*sum(mask_res)/length(T_grid)))
 cat("✓ M[e] Solid: αI=0.65 (high inertia)\n")
 
-cat("\n=== STC + PPTQ PRINCIPLE DEMONSTRATED ✓ ===\n")
+cat("\n=== RTC + PPTQ PRINCIPLE DEMONSTRATED ✓ ===\n")
 cat("The Perceptual mode samples the holographic field at PPTQ=62ms intervals\n")
 cat("→ 16 discrete percepts/second construct the solid object experience\n")
